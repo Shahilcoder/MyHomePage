@@ -1,0 +1,77 @@
+body {
+	font-family: 'Grenze' ,sans-serif;
+	background: url(../img/background.jpg);
+}
+
+h1, h4 {
+	font-family: 'Lobster', sans-serif;
+}
+
+.navbar {
+	text-align: left;
+}
+
+.content {
+	width: 500px;
+	height: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p.paragraph{
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 40px;
+	padding: 0px;
+}
+
+p.paragraph span {
+	font-size: 100px;
+}
+
+#gamelist {
+	width: 80%;
+	min-width: 600px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.gamelist {
+	background-color: rgb(40, 40, 100);
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 34px;
+	color: pink;
+}
+
+.gamelist p {
+	padding: 20px;
+}
+
+p.box {
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	margin-right: 50px;
+}
+
+span {
+	font-family: sans-serif;
+	font-size: 14px;
+	color: gray;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
